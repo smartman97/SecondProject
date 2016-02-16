@@ -27,6 +27,6 @@ int SillyAppController :: getCount()
 
 void SillyAppController :: start()
 {
-	cout << doubleArray << endl;
-	cout << intArray << endl;
+	cout << doubleArray[0] << endl;
+	cout << intArray[0] << endl;
 }
