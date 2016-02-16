@@ -10,8 +10,10 @@
 
 int main()
 {
-	SillyAppController * baseController = new SillyAppController();
+	SillyAppController* baseController = new SillyAppController();
 	baseController->start();
+	//Same but different VV
+	//(*baseController).start();
 	return 0;
 }
 

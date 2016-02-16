@@ -7,6 +7,7 @@
 
 #include "SillyAppController.h"
 #include <iostream>
+#include <string>
 using namespace std;
 
 SillyAppController :: SillyAppController()
@@ -26,11 +27,6 @@ int SillyAppController :: getCount()
 
 void SillyAppController :: start()
 {
-	cout << "Print this out" << endl;
-	cout << getCount() << " is the count right now." << endl;
-	cout << "Type in a new value for count." << endl;
-	int tempCount;
-	cin >> tempCount;
-	setCount(tempCount);
-	cout << getCount() << " is the updated count" << endl;
+	cout << doubleArray << endl;
+	cout << intArray << endl;
 }
